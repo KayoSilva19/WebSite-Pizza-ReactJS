@@ -1,10 +1,10 @@
 import React from 'react';
-import { SidebarContaianer, Icon, CloseIcon, SidebarMenu, SidebarLink, SidebarBtnWrap, SideBarRoute } from './SidebarElements';
+import { SidebarContainer, Icon, CloseIcon, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements';
 
-export default function SideBar() {
+export default function SideBar({ isOpen, toggle }) {
 	return (
-		<SidebarContaianer>
-			<Icon>
+		<SidebarContainer isOpen={isOpen} onClick={toggle}>
+			<Icon onClick={toggle}>
 				<CloseIcon />
 			</Icon>
 			<SidebarMenu>
@@ -12,10 +12,10 @@ export default function SideBar() {
 				<SidebarLink to="/"> Desserts </SidebarLink>
 				<SidebarLink to="/"> Full Menu </SidebarLink>
 			</SidebarMenu>
-			<SidebarBtnWrap>
-				<SideBarRoute to="/"> Order Now </SideBarRoute>
-			</SidebarBtnWrap>
+			<SideBtnWrap>
+				<SidebarRoute to="/"> Order Now </SidebarRoute>
+			</SideBtnWrap>
 
-		</SidebarContaianer>
+		</SidebarContainer>
 	)
 }
