@@ -7,9 +7,8 @@
     <h3 aling="center"> Projeto realizado seguindo aulas!</h3>
     <p> Projeto que representa um site de uma pizzaria </p>
     </br>
-    <P> Este projeto contém </p>
 </br>
-    <img id="webSite" src="./src/images/img.png" alt="Tela Do Projeto" width="500" />
+    <img id="webSite" src="./src/Images/img.png" alt="Tela Do Projeto" width="500" />
 </br>
 </br>
 
