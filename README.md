@@ -1,6 +1,6 @@
 </br>
 <img align="center" alt="REACT-NATIVE" 
-        src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+        src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 <p>PROJETO EM REACT</p>
 <hr>
 </br>
@@ -9,7 +9,7 @@
     </br>
     <P> Este projeto contém </p>
 </br>
-    <img id="webSite" src="./src/images/img.png" alt="Tela Do Projeto" width="700" />
+    <img id="webSite" src="./src/images/img.png" alt="Tela Do Projeto" width="500" />
 </br>
 </br>
 
@@ -24,6 +24,6 @@
 
     $ npm install
     
-    # Com o React-Native instalado execute o projeto
+    # Com o React instalado execute o projeto
     $ npm start
 ```
