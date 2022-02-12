@@ -1,5 +1,5 @@
 </br>
-<img align="center" alt="REACT-NATIVE" 
+<img align="center" alt="REACT" 
         src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 <p>PROJETO EM REACT</p>
 <hr>
